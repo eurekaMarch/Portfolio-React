@@ -1,4 +1,4 @@
-import Profile from '../assets/reshot-icon-black-hair-Z8GE2SCDPX.svg'
+import Profile from "../assets/reshot-icon-black-hair-Z8GE2SCDPX.svg";
 
 function About() {
   return (
@@ -10,8 +10,14 @@ function About() {
 
         <div className="about__data grid">
           <div className="about__info">
-            <p className="about__description">I am Trairat Kaewssad, web developer from Thailand. I have rich experience in web site design and building and customization, also I am good at WordPress.</p>
-            <a href="" className="btn">Download CV</a>
+            <p className="about__description">
+              I am Trairat Kaewssad, web developer from Thailand. I have rich
+              experience in web site design and building and customization, also
+              I am good at WordPress.
+            </p>
+            <a href="" className="btn">
+              Download CV
+            </a>
           </div>
 
           <div className="about__skills grid">
@@ -36,7 +42,7 @@ function About() {
                 <span className="about__skills--percentage ui__design"></span>
               </div>
             </div>
-            
+
             <div className="about__skills--data">
               <div className="about__skills--titles">
                 <h3 className="about__skills--name">Photography</h3>
@@ -47,10 +53,10 @@ function About() {
                 <span className="about__skills--percentage photography"></span>
               </div>
             </div>
-          </div> 
+          </div>
         </div>
       </div>
-      
+
       <div className="about__boxes grid">
         <div className="about__box">
           <i className="about__icon icon-fire"></i>
@@ -60,7 +66,6 @@ function About() {
             <span className="about__subtitle">Project completed</span>
           </div>
         </div>
-        
 
         <div className="about__box">
           <i className="about__icon icon-cup"></i>
@@ -71,7 +76,6 @@ function About() {
           </div>
         </div>
 
-
         <div className="about__box">
           <i className="about__icon icon-people"></i>
 
@@ -80,7 +84,6 @@ function About() {
             <span className="about__subtitle">Satisfied clients</span>
           </div>
         </div>
-
 
         <div className="about__box">
           <i className="about__icon icon-badge"></i>
@@ -91,9 +94,8 @@ function About() {
           </div>
         </div>
       </div>
-      
     </section>
-  )
+  );
 }
 
-export default About
+export default About;
